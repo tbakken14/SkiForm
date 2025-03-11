@@ -38,6 +38,7 @@ export function FeedbackForm() {
                     name="feedback"
                     onSubmit={handleFormSubmit}
                     className="text-black flex flex-col gap-3 align-center"
+                    data-netlify="true"
                 >
                     <input type="hidden" name="form-name" value="feedback" />
                     <input name="name" type="text" placeholder="Name" required className="input input-bordered" />
