@@ -9,6 +9,8 @@ export function Header() {
             <Link href="/">
                 <Image src={netlifyLogo} alt="Netlify logo" />
             </Link>
+            <div className='logo-s1'></div>
+            <div className='logo-s2'></div>
         </nav>
     );
 }

@@ -34,3 +34,22 @@ a {
 .btn:disabled {
     @apply text-neutral-400 bg-neutral-700;
 }
+
+.logo-s1 {
+    width: 50px;
+    height: 100px;
+    background: transparent;
+    border-radius: 50px 0px 0px 50px;
+    box-shadow: 10px 10px 10px #000 inset;
+}
+
+.logo-s2 {
+    position: relative;
+    bottom: 1px;
+    left: 40px;
+    width: 50px;
+    height: 100px;
+    background: transparent;
+    border-radius: 0px 50px 50px 0px;
+    box-shadow: -10px -10px 10px #000 inset;
+  }
