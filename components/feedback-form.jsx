@@ -33,7 +33,7 @@ export function FeedbackForm() {
 
     return (
         <div className="w-full md:max-w-md">
-            <Card title="Leave Feedback">
+            <Card title="Clinic Feedback">
                 <form
                     name="feedback"
                     onSubmit={handleFormSubmit}
