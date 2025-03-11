@@ -41,9 +41,13 @@ export function FeedbackForm() {
                     data-netlify="true"
                 >
                     <input type="hidden" name="form-name" value="feedback" />
-                    <input name="name" type="text" placeholder="Name" required className="input input-bordered" />
-                    <input name="email" type="text" placeholder="Email (optional)" className="input input-bordered" />
-                    <input name="message" type="text" placeholder="Message" required className="input input-bordered" />
+                    <input name="name" type="text" placeholder="Name (Optional)" required className="input input-bordered" />
+                    <input name="clinic" type="text" placeholder="Clinic Title" className="input input-bordered" />
+                    <input name="positive" type="text" placeholder="What worked well?" required className="input input-bordered" />
+                    <input name="negative" type="text" placeholder="What didn't work well?" required className="input input-bordered" />
+                    <input name="pace" type="text" placeholder="How was the pacing?" required className="input input-bordered" />
+                    <input name="content" type="text" placeholder="What content changes would improve the clinic?" required className="input input-bordered" />
+
                     <button className="btn btn-primary" type="submit" disabled={status === 'pending'}>
                         Submit
                     </button>
