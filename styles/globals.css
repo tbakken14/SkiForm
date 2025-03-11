@@ -36,6 +36,9 @@ a {
 }
 
 .logo-s1 {
+    margin: auto;
+    position: relative;
+    left: -25px;
     width: 50px;
     height: 100px;
     background: transparent;
@@ -44,9 +47,10 @@ a {
 }
 
 .logo-s2 {
+    margin: auto;
     position: relative;
     bottom: 1px;
-    left: 40px;
+    left: 25px;
     width: 50px;
     height: 100px;
     background: transparent;
