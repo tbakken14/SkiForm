@@ -46,7 +46,7 @@ export function FeedbackForm() {
                     <input name="positive" type="text" placeholder="What worked well?" required className="input input-bordered" />
                     <input name="negative" type="text" placeholder="What didn't work well?" required className="input input-bordered" />
                     <input name="pace" type="text" placeholder="How was the pacing?" required className="input input-bordered" />
-                    <input name="content" type="text" placeholder="What content changes would improve the clinic?" required className="input input-bordered" />
+                    <input name="content" type="text" placeholder="How was the content?" required className="input input-bordered" />
 
                     <button className="btn btn-primary" type="submit" disabled={status === 'pending'}>
                         Submit
