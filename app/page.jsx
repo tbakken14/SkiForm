@@ -2,14 +2,14 @@ import { Markdown } from 'components/markdown';
 import { FeedbackForm } from 'components/feedback-form';
 
 const explainer = `
-In order to improve lesson results, we'd like to hear from you!`;
+In order to improve clinics, we'd like to hear from you!`;
 
 export default async function Page() {
     return (
         <>
+            <h1 className="justify-center">Ski Form</h1>
+            <Markdown content={explainer} className="justify-center"/>
             <div className="flex w-full pt-12 justify-center">
-                <h1>Ski Form</h1>
-                <Markdown content={explainer} />
                 <FeedbackForm />
             </div>
         </>
